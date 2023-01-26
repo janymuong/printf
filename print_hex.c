@@ -30,7 +30,7 @@ int _print_hex(unsigned int n, unsigned int c)
 			num /= 16;
 			len++;
 		}
-		powten = 1;
+		ten = 1;
 		for (i = 1; i <= len - 1; i++)
 			ten *= 16;
 		for (i = 1; i <= len; i++)
