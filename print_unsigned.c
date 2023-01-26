@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
-* print_unsigned - main entry point
+* _print_unsigned - main entry point
 *
 * @u: unsigned number argument
 *
 * Description: function that prints unsigned number
 *
-* Return: size of output
+* Return: count of arguments passed
 */
-int print_unsigned(va_list u)
+int _print_unsigned(va_list u)
 {
 	unsigned int len, ten, i, digit, a, num;
 	int count = 0;
@@ -36,10 +36,12 @@ int print_unsigned(va_list u)
 			ten /= 10;
 		}
 	}
+
 	else
 	{
 		_putchar('0');
 		return (1);
 	}
+
 	return (count);
 }
