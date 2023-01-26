@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* print_hex - main entry point
+* _print_hex - main entry point
 *
 * Description - function that prints an unsigned int in hexadecimal
 *
@@ -11,7 +11,7 @@
 *
 * Return: size the output
 */
-int print_hex(unsigned int n, unsigned int c)
+int _print_hex(unsigned int n, unsigned int c)
 {
 	unsigned int len, i, digit, ten, num;
 	int count = 0;
@@ -53,7 +53,7 @@ int print_hex(unsigned int n, unsigned int c)
 	return (count);
 }
 /**
-* print_x - entry point
+* _print_x - entry point
 *
 * @x: unsigned int to print
 *
@@ -61,12 +61,12 @@ int print_hex(unsigned int n, unsigned int c)
 *
 * Return: size of output
 */
-int print_x(va_list x)
+int _print_x(va_list x)
 {
-	return (print_hex(va_arg(x, unsigned int), 0));
+	return (_print_hex(va_arg(x, unsigned int), 0));
 }
 /**
-* print_X - entry point
+* _print_X - entry point
 *
 * @X: unsigned int to print
 *
@@ -74,7 +74,7 @@ int print_x(va_list x)
 *
 * Return: size of output
 */
-int print_X(va_list X)
+int _print_X(va_list X)
 {
-	return (print_hex(va_arg(X, unsigned int), 1));
+	return (_print_hex(va_arg(X, unsigned int), 1));
 }
