@@ -14,7 +14,7 @@ int (*format_selector(const char *format))(va_list)
 	f_spec format_list[] = {
 		{"c", _print_char},
 		{"s", _print_string},
-		{"i", _print_integer},
+		{"i", _print_int},
 		{"d", _print_dec},
 		{"r", _print_rev},
 		{"b", _print_bin},
