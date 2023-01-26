@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* print_int - main entry point
+* _print_int - main entry point
 *
 * @i: integer to print
 *
@@ -9,7 +9,7 @@
 *
 * Return: size the output text
 */
-int print_int(va_list i)
+int _print_int(va_list i)
 {
 	int len, ten, j, digit, n, count = 0, num;
 
@@ -23,6 +23,7 @@ int print_int(va_list i)
 		}
 		num = n;
 		len = 0;
+
 		while (num != 0)
 		{
 			num /= 10;
