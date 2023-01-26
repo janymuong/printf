@@ -3,15 +3,15 @@
 #include <stdio.h>
 
 /**
-* print_rev - main entry point
+* _print_rev - main entry point
 *
 * Description - function that prints string in reverse
 *
-* @r: string to print
+* @r: string to print to stdout
 *
-* Return: no: of chars printed
+* Return: no. of chars printed
 */
-int print_rev(va_list r)
+int _print_rev(va_list r)
 {
 	char *s;
 	int i, j = 0;
