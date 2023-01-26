@@ -1,10 +1,13 @@
 # printf
 ---
 
-Collaboration project ```printf```.
+## Collaboration project: **C - printf**
 
-We're creating files that together create the behavior of the stdlib ***printf*** function.
+> simulates stdlib ```printf```
+
+```printf``` prints formatted output to stdout.
+We're creating files that together create the behavior of the C standard library **printf** function.
 
 ## Authors
 - Robert Ruai Mawich
-- Jany Muong 
+- Jany Muong
