@@ -18,10 +18,10 @@ int _print_rot13(va_list R);
 int _print_unsigned(va_list u);
 
 /**
-  * struct format_specifier - format specifier structure for printf to select from
+  * struct format_specifier -format specifier structure for printf to select from
   * @fp: pointer specifiers
   *
-  * @f: pointer to he function for specifiers
+  * @f: pointer to the function for specifiers
   */
 typedef struct format_specifier
 {
