@@ -3,7 +3,7 @@
 #include <unistd.h>
 
 /**
-  * format_selector - function that selects format specifier for _printf
+  * format_selector - a function that selects format specifier for _printf
   * @format: is a character string - zero or more directives
   *
   * Return: function for spec or null if false

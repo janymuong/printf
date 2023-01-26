@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* _print_dec - print a bbase 10 number
+* _print_dec - prints a bbase 10 number
 * @d: integer to print
 *
 * Return: length the arguments

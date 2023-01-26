@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
-* _print_bin - convert chars to binary
+* _print_bin - converts chars to binary
 * @b: expected input decimal number
 *
 * Return: count of args

@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * _printf_mod - print modifier %
+ * _printf_mod - prints modifier %
  *
  * Return: always (1) on success
  */
