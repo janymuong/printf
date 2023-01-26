@@ -9,7 +9,7 @@
 We're creating files that together create the behavior of the C standard library **printf** function.
 
 ### **man page**
-> usage:
+> usage: you can use the manual for printf as a reference
 ```bash
 man ./man_3_printf
 ```
