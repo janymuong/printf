@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * print_string - main entry point
+ * _print_string - print char array for _printf
  *
  * Description - function that writes the character c to stdout
  *
@@ -11,7 +11,7 @@
  *
  * Return: 1
  */
-int print_string(va_list str)
+int _print_string(va_list str)
 {
 	char *s;
 	int  i = 0;
