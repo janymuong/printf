@@ -10,8 +10,8 @@ We're creating files that together create the behavior of the C standard library
 
 ### **man page**
 > usage: ```bash 
-man ./man_3_printf
-```
+man ./man_3_printf```
+
 ## Authors
 - Robert Ruai Mawich
 - Jany Muong
