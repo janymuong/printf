@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* print_octal - main entry point
+* _print_octal - main entry point
 *
 * @o: unsigned to be converted
 *
@@ -9,7 +9,7 @@
 *
 * Return: size of output
 */
-int print_octal(va_list o)
+int _print_octal(va_list o)
 {
 	unsigned int len, ten, i, digit, a, num;
 	int count = 0;
@@ -41,5 +41,6 @@ int print_octal(va_list o)
 		_putchar('0');
 		return (1);
 	}
+
 	return (count);
 }
