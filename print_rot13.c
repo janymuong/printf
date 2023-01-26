@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
-  * print_rot13 - main entry point
+  * _print_rot13 - main entry point
   *
   * Description - function that encodes a string into rot13
   *
@@ -10,7 +10,7 @@
   *
   * Return: size of output
   */
-int print_rot13(va_list R)
+int _print_rot13(va_list R)
 {
 	int i, j, count = 0;
 	char *r;
