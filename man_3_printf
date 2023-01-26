@@ -2,8 +2,8 @@
 .hy
 .SH NAME
 .PP
-_printf - prints formatted output to stdout. simulates 
-.B "PRINTF" 
+_printf - prints formatted output to stdout. simulates
+.B "PRINTF"
 in c.
 .PP
 .SH SYNOPSIS
